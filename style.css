@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/background.jpg);
+    background-size: 45%;
+    background-repeat: no-repeat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.first-half{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: transparent;
+}
+
+.first-half h1{
+    color: rgb(255, 28, 123);
+    background-color: rgba(0, 0, 0, 0.324);
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.first-half a{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-self: center;
+    color: rgba(255, 255, 255, 0.323);
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+.first-half a:hover{
+    color: white;
+}
+
+.second-half{
+    background-color: rgb(16, 0, 41);
+    width: 60%;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.622);
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+.toptext-content{
+    margin-top: 130px;
+    padding-right: 450px;
+    line-height: 1.6rem;
+}
+
+form{
+    margin-top: 130px;
+}
+
+form legend{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+form ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    row-gap:15px;
+    font-size: 0.9rem;
+    margin-left: -40px;
+}
+
+form ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+form ul li input{
+    width: 250px;
+    padding: 10px;
+    gap: 3px;
+    color: white;
+    background-color:rgb(34, 0, 89);
+    border:none;
+    border-radius: 5px;
+}
+
+form ul li input:hover{
+    cursor: pointer;
+}
+
+form ul li input:focus{
+    outline: 1px solid rgb(255, 28, 123);
+    cursor:text;
+}
+
+form button{
+    width: 230px;
+    margin-top: 40px;
+    padding: 10px;
+    gap: 3px;
+    color: white;
+    background-color:rgba(255, 0, 123, 0.666);
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover{
+    background-color: rgb(255, 0, 123);
+    cursor: pointer;
+}
+
+.lower-link{
+    font-size: 0.6rem;
+}
+
+.lower-link a{
+    color: rgba(255, 0, 123, 0.538);
+}
+
+.lower-link a:hover{
+    color: rgb(255, 28, 123);
+}
